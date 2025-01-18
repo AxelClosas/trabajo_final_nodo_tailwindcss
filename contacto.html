@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ofrecemos soluciones de Software as a Service (SaaS) diseñadas para mejorar la eficiencia, facilitar la colaboración y potenciar el crecimiento">
+  <meta name="keywords" content="saas, inventario, software, orm, technology">
+
+  <link href="./src/output.css" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <title>CloudSphere Solutions</title>
+
+  <style>
+    html {
+      font-size: 100%;
+      box-sizing: border-box;
+    }
+    *, *:before, *:after {
+      margin: 0;
+      padding: 0;
+      box-sizing: inherit;
+    }
+    a { 
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body class="text-100 w-full min-h-[100dvh] font-lato bg-crema">
+  <header class="flex flex-col text-center bg-black pt-4 gap-4">
+    <h1 class="font-archivo text-23em text-white font-medium italic text-center leading-10"><a href="./index.html" class="no-underline text-inherit flex flex-wrap justify-center items-center">CloudSphere<span class="font-roboto-serif text-orange-600 font-black">Solutions</span></a>
+    </h1>
+    <nav>
+      <ul class="list-none bg-white w-full shadow-lg md:flex md:justify-evenly md:items-center">
+        <li><a class="text-12em block py-2 hover:bg-orange-500 hover:font-bold hover:text-white md:block md:py-2 md:px-8" href="./index.html">Inicio</a></li>
+        <li><a class="text-12em block py-2 hover:bg-orange-500 hover:font-bold hover:text-white md:block md:py-2 md:px-8" href="./nosotros.html">Nosotros</a></li>
+        <li><a class="text-12em block py-2 hover:bg-orange-500 hover:font-bold hover:text-white md:block md:py-2 md:px-8" href="./servicios.html">Servicios</a></li>
+        <li><a class="text-12em block py-2 hover:bg-orange-500 hover:font-bold hover:text-white md:block md:py-2 md:px-8" href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="flex flex-col justify-center items-center gap-8 my-8 py-0 px-8">
+    <h2 class="text-2em font-extrabold underline decoration-wavy decoration-orange-600">Contacto</h2>
+    <div class="flex flex-col justify-center items-center flex-wrap gap-8 md:max-w-[80%]">
+
+        <p class="text-wrap leading-6"><strong>¿Tienes alguna consulta?</strong> <strong>¿Quieres más información sobre nuestros servicios?</strong> Llena el <strong>formulario</strong> o escríbenos a <strong>info@cloudsphere.com</strong>.</p>
+
+      <div class="md:flex md:justify-center md:gap-8 md:items-center">
+        <form action="" class="flex flex-col mb-8">
+          <div class="flex flex-col mb-4">
+            <label class="font-semibold mb-2" for="correo">Correo electrónico</label>
+            <input class="border border-solid border-orange-600 bg-white py-1 px-4 rounded" type="email" name="" id="correo">
+          </div>
+          <div class="flex flex-col mb-4">
+            <label class="font-semibold mb-2" for="asunto">Asunto</label>
+            <select class="border border-solid border-orange-600 bg-white py-1 px-4 rounded font-semibold" name="" id="asunto">
+              <option value="gestion-de-inventarios">Gestión de Inventarios</option>
+              <option value="crm-inteligente">CRM Inteligente</option>
+              <option value="analisis-de-datos">Análisis de Datos</option>
+              <option value="gestion-de-proyectos">Gestión de Proyectos</option>
+            </select>
+          </div>
+          <div class="flex flex-col mb-4">
+            <label class="font-semibold mb-2" for="mensaje">Mensaje</label>
+            <textarea class="font-lato border border-solid border-orange-600 field-sizing-content resize-none min-h-12 p-2 rounded" name="" id="mensaje"></textarea>
+          </div>
+          <button class="text-em border-none bg-black text-orange-600 font-bold uppercase py-2 px-0 rounded cursor-pointer hover:text-black hover:bg-orange-600" type="submit">Enviar</button>
+        </form>
+        <div class="contacto__redes">
+          <h3 class="mb-4 text-12em font-bold">Síguenos en redes sociales:</h3>
+          <ul class="list-none">
+            <li class="mb-2"><strong>Facebook</strong>: <a class="text-orange-600 font-bold hover:text-orange-300" href="#">/CloudSphereSolutions</a></li>
+            <li class="mb-2"><strong>LinkedIn</strong>: <a class="text-orange-600 font-bold hover:text-orange-300" href="#">/CloudSphere-Solutions</a></li>
+            <li class="mb-2"><strong>Twitter</strong>: <a class="text-orange-600 font-bold hover:text-orange-300" href="#">@CloudSphereSaaS</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="flex flex-col bg-black justify-center items-center text-white p-4">
+    <h2 class="text-white text-2em mt-4 font-medium">CloudSphere<span class="text-orange-600 font-black ">Solutions</span></h2>
+    <p class="text-white italic text-em text-wrap text-center"><small>CloudSphere Solutions - Innovación y simplicidad en la nube.</small></p>
+    <div class="pl-4 pr-4 w-full flex flex-col mt-8 justify-between items-center gap-8 md:flex-row md:justify-center md:items-start">
+      <nav class="footer__nav">
+        <ul class="flex flex-col gap-2 list-none items-center">
+          <h3 class="font-bold text-12em">Navegación Rapida</h3>
+          <li class="text-left"><a class="no-underline text-orange-600" href="./index.html">Inicio</a></li>
+          <li class="text-left"><a class="no-underline text-orange-600" href="./nosotros.html">Nosotros</a></li>
+          <li class="text-left"><a class="no-underline text-orange-600" href="./servicios.html">Servicios</a></li>
+          <li class="text-left"><a class="no-underline text-orange-600" href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <ul class="flex flex-col gap-2 list-none items-center">
+        <h3 class="font-bold text-12em">Redes Sociales</h3>
+        <div class="flex gap-2">
+          <li class="text-left"><a href="#"><img class="w-12 md:max-w-10" src="./img/facebook.svg" alt="facebook"></a></li>
+          <li class="text-left"><a href="#"><img class="w-12 md:max-w-10" src="./img/instagram.svg" alt="instagram"></a></li>
+          <li class="text-left"><a href="#"><img class="w-12 md:max-w-10" src="./img/linkedin.png" alt="linkedin"></a></li>
+        </div>
+      </ul>
+    </div>
+    <p class="text-wrap mt-8 font-bold text-center">&copy; <span>2024 CloudSphere Solutions</span>. Todos los derechos reservados</p>
+    <p class="mt-8">Diseñado por <strong>Axel Closas</strong></p>
+  </footer>
+</body>
+
+</html>
